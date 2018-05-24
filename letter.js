@@ -9,14 +9,14 @@ class Letter {
     if(this.correct) {
       return this.ltr;
     } else {
-      return '_';
+      return '_ ';
     }
   }
 
   check(guess) {
     if(this.ltr === guess) {
       this.correct = true;
-    }     
+    } 
   }
 
 
