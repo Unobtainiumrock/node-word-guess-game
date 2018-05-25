@@ -12,7 +12,7 @@ let score = 0;
 
 
 // UNCOMMENT THIS CONSOLE LOG FOR TESTING THE GAME FUNCTIONALITY
-// console.log(hidden);
+console.log(hidden);
 
 game();
 
@@ -34,8 +34,8 @@ function game() {
     } else {
       console.log('Incorrect');
       console.log('');
-      console.log(`${guesses} guesses remaining`);
       guesses--;
+      console.log(`${guesses} guesses remaining`);
     }
 
     console.log(randomWord.display());
